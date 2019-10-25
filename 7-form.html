@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>7. Forms</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contoh Penggunaan Form</h1>
+      <hr />
+    </header>
+    <section style="border: 1px solid black; padding: 16px;">
+      <h2>Formulir Pendaftaran Siswa</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" placeholder="tulis namamu.." />
+        <br />
+        <label for="tanggal-lahir">Tanggal Lahir</label>
+        <input type="date" name="tanggal-lahir" /> <br />
+        <label for="kelamin">Jenis Kelamin</label> <br />
+        <input type="radio" name="kelamin" value="L" checked /> Laki - Laki
+        <input type="radio" name="kelamin" value="P" /> Perempuan <br />
+        <label for="agama">Agama</label>
+        <select name="agama">
+          <option value="1">Islam</option>
+          <option value="2">Katolik</option>
+          <option value="3">Kristen</option>
+          <option value="4">Budha</option>
+          <option value="5">Hindu</option>
+        </select>
+        <br />
+        <input type="checkbox" required /> Saya sudah setuju dengan
+        persyaratanya
+        <br />
+        <button type="submit">Daftar Sekarang</button>
+        <button type="reset">Hapus</button>
+      </form>
+    </section>
+    <br />
+    <a href="./index.html"><< Kembali ke Homepage</a>
+  </body>
+</html>

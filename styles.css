@@ -3,3 +3,21 @@ body {
   margin: 0 auto;
   margin-bottom: 120px;
 }
+
+.menu > li {
+  margin: 8px 0;
+}
+
+.menu > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+input {
+  margin: 8px 0;
+}
