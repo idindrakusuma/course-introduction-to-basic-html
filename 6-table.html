@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>6. Table</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contoh penggunaan Table</h1>
+      <hr />
+    </header>
+    <section>
+      <table>
+        <caption>
+          Daftar Belanja
+        </caption>
+        <!-- untuk header table -->
+        <thead>
+          <th>No</th>
+          <th>Barang</th>
+          <th>Kuantitas</th>
+          <th>Harga</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Tempe</td>
+            <td>2 potong</td>
+            <td>Rp15.000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Tahu</td>
+            <td>1 potong</td>
+            <td>Rp10.000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sayur Bayam</td>
+            <td>1 Kilo</td>
+            <td>Rp20.000</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <!-- with style -->
+      <table border="1">
+        <caption>
+          Daftar Belanja (Dengan Border)
+        </caption>
+        <!-- untuk header table -->
+        <thead style="background: green; color: white">
+          <th>No</th>
+          <th>Barang</th>
+          <th>Kuantitas</th>
+          <th>Harga</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Tempe</td>
+            <td>2 potong</td>
+            <td>Rp15.000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Tahu</td>
+            <td>1 potong</td>
+            <td>Rp10.000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sayur Bayam</td>
+            <td>1 Kilo</td>
+            <td>Rp20.000</td>
+          </tr>
+          <tr>
+            <td colspan="3">Total Belanja</td>
+            <td>Rp45.0000</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <!-- Row Span Table -->
+      <table border="1">
+        <caption>
+          Daftar Pemilik Laptop
+        </caption>
+        <thead>
+          <th>Tipe Laptop</th>
+          <th>Pemilik</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Asus A4123</td>
+            <td rowspan="2">Indra Kusuma</td>
+          </tr>
+          <tr>
+            <td>Macbook Pro 2018</td>
+          </tr>
+          <tr>
+            <td>Macbook Air 2018</td>
+            <td>M Irfan</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br />
+    <a href="./index.html"><< Kembali ke Homepage</a>
+  </body>
+</html>
