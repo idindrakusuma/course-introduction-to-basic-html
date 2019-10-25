@@ -21,3 +21,19 @@ body {
 input {
   margin: 8px 0;
 }
+
+.paragraph-1 {
+  color: blue;
+  text-align: right;
+}
+
+#paragraph-2 {
+  color: green;
+  text-align: justify;
+}
+
+.image {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
